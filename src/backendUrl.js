@@ -1,3 +1,3 @@
-const backendUrl = 'http://localhost:3005';
+const backendUrl = process.env.REACT_APP_BE_URL;
 
 export default backendUrl;
